@@ -4,7 +4,7 @@ export default function Content(props){
 
     function diplayParts(){
        return parts.map(part=>{
-        return<Part exercises={part.exercises} part={part.name}/>
+        return<Part exercises={part.exercises} part={part.name} key ={part.id}/>
         })
     }
     let partsMap=diplayParts()
