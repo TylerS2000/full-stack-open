@@ -7,7 +7,7 @@ return(
           </div>
           <div>number: <input value={props.newNumber} onChange={props.handleNumberChange} /></div>
        
-        <div>debug: {props.newName}</div>
+       
         <div>
           <button type="submit" onClick={props.submitName}>add</button>
         </div>
